@@ -1,0 +1,2 @@
+65.What is javascript executor 
+A. JavaScript executor is an interface provided by Selenium that gives a  mechanism to execute JavaScript through Selenium WebDriver. 
