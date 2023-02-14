@@ -1,0 +1,1 @@
+StaleElementReferenceException: The referenced element is no longer present  on the DOM page (a reference to a component is now Stale). For example, the  item belongs to a different frame than the current one or the user has navigated  away to another page 
