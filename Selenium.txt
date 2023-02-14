@@ -1,0 +1,21 @@
+A.dragAndDrop(source,target).perform(); 
+71.What is remote webdriver
+A. Selenium RemoteWebDriver is used to execute the browser automation suite  on a remote machine 
+72.What is search context 
+A. SearchContext is a topmost interface present in the Selenium WebDriver  hierarchy. It has two methods that will be the abstract as SearchContext is an  interface. The two methods are the findElement() and findElements(). 
+73.Drag and drop between two frames,The drag part is in one frame and drop  part is in another frame and then when have to use drag and drop 
+A. / grab your element 
+Actions builder = new Actions(driver); 
+Actions action = builder.clickAndHold(target); 
+builder.build(); 
+action.perform(); 
+// switch to the frame (you havent told webdriver to un-grab 
+driver.switchTo().frame("newFrame"); //switching frames 
+// move and drop 
+Actions builder = new Actions(driver); 
+Actions action = builder.moveToElement(destination); 
+builder.release(destination); 
+builder.build(); 
+action.perform(); 
+74.What is stale element exception in selenium 
+A.Element is no longer appearing on the Dom page
